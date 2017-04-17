@@ -226,10 +226,10 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="yen.20170108171733.15">## 2017Spring_cd 上課報告
 
-### 設計二甲 紀鈞瀚
+### 設計二甲 廖先博
 
 &lt;small&gt;
-Created by [40423126](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423145](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
 [BLOG](blog/index.html)
