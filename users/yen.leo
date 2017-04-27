@@ -48,7 +48,10 @@
 <v t="leo.20170330110241.1"><vh>@edit 20170323.md</vh></v>
 <v t="leo.20170406110723.1"><vh>@edit 20170330.md</vh></v>
 <v t="leo.20170406110746.1"><vh>@edit 20170406.md</vh></v>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
+<v t="leo.20170427192825.1"><vh>@edit 20170413.md</vh></v>
+<v t="leo.20170427192830.1"><vh>@edit 20170420.md</vh></v>
+<v t="leo.20170427192844.1"><vh>@edit 20170427.md</vh></v>
+<v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
