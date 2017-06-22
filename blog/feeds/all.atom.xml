@@ -1359,7 +1359,7 @@ set_interval(draw, 2)
 &lt;/script&gt;
 
 &lt;h2&gt;5.如何模擬 3D 正齒輪組囓合？&lt;/h2&gt;</summary><category term="w12"></category></entry><entry><title>2017springcd 第十一週</title><link href="./2017springcd-di-shi-yi-zhou.html" rel="alternate"></link><updated>2017-05-04T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-05-04:./2017springcd-di-shi-yi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;無&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-</summary><category term="w11"></category></entry><entry><title>2017springcd 第十週</title><link href="./2017springcd-di-shi-zhou.html" rel="alternate"></link><updated>2017-04-27T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-27:./2017springcd-di-shi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;Brython 動態模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+</summary><category term="w11"></category></entry><entry><title>2017springcd 第十週</title><link href="./2017springcd-di-shi-zhou.html" rel="alternate"></link><updated>2017-04-27T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-27:./2017springcd-di-shi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;Brython 動態模擬&amp;amp;+-*/&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;h3&gt;轉為 Brython 繪圖的模擬應用-機械手臂&lt;/h3&gt;
@@ -1497,7 +1497,64 @@ def armPathFn(time, opts):
 
 cgo.animate(armGrp, initArm, armPathFn, animData)
 cgo.playAnimation()
-&lt;/script&gt;</summary><category term="w10"></category></entry><entry><title>2017springcd 第九週</title><link href="./2017springcd-di-jiu-zhou.html" rel="alternate"></link><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-20:./2017springcd-di-jiu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;期中週&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;h2&gt;1.+法運算&lt;/h2&gt;
+&lt;p&gt;+法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a+b //將a+b值傳回主程式中
+&lt;/pre&gt;
++法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1")//資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;2.-法運算&lt;/h2&gt;
+&lt;p&gt;-法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a-b //將a-b值傳回主程式中
+&lt;/pre&gt;
+-法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;3.*法運算&lt;/h2&gt;
+&lt;p&gt;乘法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a* b //將a乘b值傳回主程式中
+&lt;/pre&gt;
+乘法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;4./法運算&lt;/h2&gt;
+&lt;p&gt;/法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a/b //將a/b值傳回主程式中
+&lt;/pre&gt;
+/法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys//插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add//導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) // /法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>2017springcd 第九週</title><link href="./2017springcd-di-jiu-zhou.html" rel="alternate"></link><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-20:./2017springcd-di-jiu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;期中週&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 </summary><category term="w9"></category></entry><entry><title>2017springcd 第八週</title><link href="./2017springcd-di-ba-zhou.html" rel="alternate"></link><updated>2017-04-13T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-13:./2017springcd-di-ba-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;無&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 </summary><category term="w8"></category></entry><entry><title>2017springcd 第七週</title><link href="./2017springcd-di-qi-zhou.html" rel="alternate"></link><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-04-06:./2017springcd-di-qi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;無&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 </summary><category term="w7"></category></entry><entry><title>2017springcd 第六週</title><link href="./2017springcd-di-liu-zhou.html" rel="alternate"></link><updated>2017-03-30T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-03-30:./2017springcd-di-liu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;利用Onshape做八連桿組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
