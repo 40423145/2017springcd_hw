@@ -45,7 +45,8 @@ def button1(event):
 doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017springcd 第十六週</title><link href="./2017springcd-di-shi-liu-zhou.html" rel="alternate"></link><updated>2017-06-08T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-06-08:./2017springcd-di-shi-liu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;無&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h3&gt;行走機構&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222493042" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="w17"></category></entry><entry><title>2017springcd 第十六週</title><link href="./2017springcd-di-shi-liu-zhou.html" rel="alternate"></link><updated>2017-06-08T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-06-08:./2017springcd-di-shi-liu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;無&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 </summary><category term="w16"></category></entry><entry><title>2017springcd 第十五週</title><link href="./2017springcd-di-shi-wu-zhou.html" rel="alternate"></link><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423145</name></author><id>tag:,2017-06-01:./2017springcd-di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="blue"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
