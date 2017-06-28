@@ -10,6 +10,14 @@
 
 &lt;p&gt;&lt;a href="https://vimeo.com/223104298"&gt;w17 零件-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
+&lt;iframe src="https://player.vimeo.com/video/223463413" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223463413"&gt;w17 零件-3.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223463370" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223463370"&gt;w17 組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3&gt;雙軸組合  HTML&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="./../data/hw17/雙軸組合圖.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -419,7 +427,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="onegear_div" width="800" height="200"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
