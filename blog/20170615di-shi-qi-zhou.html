@@ -159,6 +159,15 @@
                 <p><b><font color="blue">行走機構 2D 靜態繪圖</font></b></p>
 
 
+<h3>W17零件&amp;組合</h3>
+<p><iframe src="./../data/hw17/w17零件1.html" width="800" height="600"></iframe></p>
+<iframe src="./../data/hw17/w17零件2.html" width="800" height="600"></iframe>
+
+<iframe src="./../data/hw17/w17零件3.html" width="800" height="600"></iframe>
+
+<iframe src="./../data/hw17/W17組合圖.html" width="800" height="600"></iframe>
+
+<h3>繪製影片</h3>
 <iframe src="https://player.vimeo.com/video/223104247" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/223104247">w17 零件-1</a> from <a href="https://vimeo.com/user44207163">h2itw</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -175,8 +184,6 @@
 
 <p><a href="https://vimeo.com/223463370">w17 組合</a> from <a href="https://vimeo.com/user44207163">h2itw</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-<h3>雙軸組合  HTML</h3>
-<p><iframe src="./../data/hw17/雙軸組合圖.html" width="800" height="600"></iframe></p>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -185,7 +192,78 @@
 
 <!-- 啟動 Brython -->
 
-<script>
+<script>Y:\tmp\2017springcd_hw\users\yen.leo,<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
+<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<leo_header file_format="2"/>
+<vnodes>
+<v t="leo.20170621234054.1"><vh>@edit 20170615.md</vh></v>
+</vnodes>
+<tnodes>
+<t tx="leo.20170621234054.1">@language md
+Title: 2017/06/15第十七週
+Date: 2017-06-15
+Category: Course
+Tags: w17
+Author: 40423145
+
+&lt;b&gt;&lt;font color="blue"&gt;行走機構 2D 靜態繪圖&lt;/font&gt;&lt;/b&gt;
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223104247" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223104247"&gt;w17 零件-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223104298" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223104298"&gt;w17 零件-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223463413" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223463413"&gt;w17 零件-3.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223463370" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223463370"&gt;w17 組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207163"&gt;h2itw&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+&lt;!--&lt;canvas id="w17" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="800" height="600"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container &lt;= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+&lt;/script&gt;
+
+###行走機構
+
+&lt;iframe src="https://player.vimeo.com/video/222493042" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+</tnodes>
+</leo_file>
+
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
 brython({debug:1, pythonpath:['./../data/py']});
